@@ -188,8 +188,14 @@ jobs:
           tag: ${{ github.ref_name }}
         run: |
           # Collect all artifacts and pass them to gh release create as positional arguments
+          # Tags containing '-' (e.g. v2.3.3-korean.1) are treated as prereleases.
+          PRERELEASE_FLAG=""
+          if [[ "$tag" == *-* ]]; then
+            PRERELEASE_FLAG="--prerelease"
+          fi
           gh release create "$tag" \
               --repo="${GITHUB_REPOSITORY}" \
               --title="${GITHUB_REPOSITORY#*/} ${tag#v}" \
               --generate-notes \
+              $PRERELEASE_FLAG \
               $(find dist -type f -print0 | xargs -0)

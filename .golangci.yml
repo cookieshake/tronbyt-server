@@ -9,6 +9,10 @@ linters:
     - modernize
     - staticcheck
     - unused
+  settings:
+    gomoddirectives:
+      replace-allow-list:
+        - github.com/tronbyt/pixlet
   disable:
     - cyclop
     - depguard

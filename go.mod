@@ -134,4 +134,4 @@ require (
 
 tool github.com/air-verse/air
 
-replace github.com/tronbyt/pixlet v0.53.1 => github.com/cookieshake/pixlet v0.53.1-korean.1
+replace github.com/tronbyt/pixlet v0.53.1 => github.com/cookieshake/pixlet v0.53.1-korean.2

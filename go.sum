@@ -148,8 +148,8 @@ github.com/clipperhouse/uax29/v2 v2.6.0/go.mod h1:Wn1g7MK6OoeDT0vL+Q0SQLDz/KpfsV
 github.com/cloudflare/circl v1.6.3 h1:9GPOhQGF9MCYUeXyMYlqTR6a5gTrgR/fBLXvUgtVcg8=
 github.com/cloudflare/circl v1.6.3/go.mod h1:2eXP6Qfat4O/Yhh8BznvKnJ+uzEoTQ6jVKJRn81BiS4=
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=
-github.com/cookieshake/pixlet v0.53.1-korean.1 h1:VVeztevKW31umR+4AmUb5xNYl7xztnU8GGltehSZV/o=
-github.com/cookieshake/pixlet v0.53.1-korean.1/go.mod h1:ryGY9Twl+xJADnttI3r90axEnPg7uHIx3fUELf+DGZI=
+github.com/cookieshake/pixlet v0.53.1-korean.2 h1:lJvTlgxyENQjxvT8uANudCn0E9yKln9XUqh2JJ1k3Bc=
+github.com/cookieshake/pixlet v0.53.1-korean.2/go.mod h1:ryGY9Twl+xJADnttI3r90axEnPg7uHIx3fUELf+DGZI=
 github.com/coreos/bbolt v1.3.2/go.mod h1:iRUV2dpdMOn7Bo10OQBFzIJO9kkE559Wcmn+qkEiiKk=
 github.com/coreos/etcd v3.3.10+incompatible/go.mod h1:uF7uidLiAD3TWHmW31ZFd/JWoc32PjwdhPthX9715RE=
 github.com/coreos/go-oidc/v3 v3.21.0 h1:wZo4Q9Pum8dYEj0eMUPrqR+kvuGkeUplbLpNCkBqoWM=
